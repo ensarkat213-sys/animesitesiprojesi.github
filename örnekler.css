@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: black;
+}
+
+.container{
+    width: 1000px;
+    height: 6500px;
+    border: 3px groove gray;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(34, 33, 33);
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.logo img:hover{
+    opacity: 0.7;
+}
+
+
+    
+.container .banner .devil:hover{
+    background-color: #eeeded;
+    color: #941015;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(234, 28, 5),
+    0 0 80px rgb(234, 28, 5),
+    0 0 120px rgb(234, 28, 5);
+    
+    
+    
+}
+
+
+
+.container .banner .devil{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f27632;
+    border: 3px solid #eeeded;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: fantasy;
+    
+    
+    text-decoration: none;
+    transition: 0.3s;
+   
+   
+    
+}
+.container .banner{
+    width: 1000px;
+    height: 500px;
+    display: inline-block;
+
+
+    background-image: url(devil-may-cry-2025-3840x2160-22265.jpg);
+    background-size: cover;
+    border: beige solid 2px;
+}
+
+    
+
+.menü{
+    margin-top: 100px;
+}
+.menü ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menü ul li{
+    display: inline-block;
+}
+
+.menü h1{
+    color: #eeeded;
+    margin-left: 320px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menü img{
+    opacity: 1;
+    transition: all 0.5s;
+    border: bisque solid 2px;
+}
+
+.menü img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.container .ilklink ul li a{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: beige    solid 2px;
+    color:rgb(200, 7, 7);  
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-family: fantasy;
+    transition: all 0.3s;
+    
+}
+
+.container .ilklink ul{
+     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+    
+
+}
+
+.container .ilklink{
+    border-bottom: rgba(220, 20, 20, 0.879) solid 5px;
+    
+    height: 80px;
+    margin-bottom: 20px;
+    
+    margin-top: 20px;
+   
+}
+
+.container .ilklink ul li a:hover{
+background-color: #eeeded;
+    color: #941015;
+
+}
+
+.anime1{
+    width: 600px;
+    height: 500px;
+    border: beige solid 3px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    border-radius: 10px;
+    
+
+background-image: url(cyberpunk-3840x2160-16204.jpg);
+background-size: cover;
+
+margin-right: 20px;
+
+
+    
+}
+
+
+    
+    
+
+
+.anime1 h1{
+    margin-left: 30px;
+    font-family: fantasy;
+    color: rgb(5, 48, 123);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 120px #0ff;
+    margin-top: 20px;
+   
+    
+}
+
+.anime1 p{
+    color: #bff022;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 300px;
+    font-weight: bold;
+}
+    
+
+.anime1 .buton1{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: rgb(255, 255, 255) solid 3px;
+    text-decoration: none;
+    color:#bff022;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 250px;
+    font-family: fantasy;
+    font-size: 13px;
+    margin-top: 20px;
+    transition: 0.2s;
+    
+}
+.anime1 .buton1:hover{
+    background-color: #bff022 ;
+    color: rgb(5, 48, 123);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 120px #0ff;
+    
+
+     
+}
+.anime2{
+    width: 600px;
+    height: 500px;
+    border: beige solid 3px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    border-radius: 10px;
+    
+
+background-image: url(momo-dandadan-3840x2160-19451.jpg);
+background-size: cover;
+
+margin-right: 20px;
+
+}
+.anime2 .buton2{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: rgb(201, 4, 4) solid 3px;
+    text-decoration: none;
+    color:rgb(180, 21, 0);
+    border-radius: 10px;
+    text-align: center; 
+    line-height: 40px;
+    margin-left: 250px;
+    font-family: fantasy;
+    font-size: 13px;
+    margin-top: 20px;
+    transition: 0.2s;
+    background-color: #f022229c;
+
+}
+
+.anime2 h1{
+    margin-left: 30px;
+    font-family: fantasy;
+    color: rgb(180, 21, 0);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(255, 38, 0),
+    0 0 80px #0ff,
+    0 0 120px #0ff;
+    margin-top: 20px;}
+
+    .anime2 p{
+    color: rgb(180, 21, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 300px;
+    font-weight: bold;
+    
+}
+
+.anime2 .buton2:hover{
+    background-color: #f02222 ;
+    color: rgb(255, 255, 255);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 120px #0ff;}
+
+.anime3{
+    width: 600px;
+    height: 500px;
+    border: beige solid 3px;
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    border-radius: 10px;
+    
+
+background-image: url(one-piece-season-15-3840x2160-22064.jpg);
+background-size: cover;
+
+margin-right: 20px;
+
+    
+}
+
+.anime3 .buton3{
+    display: block;
+    width: 80px;
+    height: 40px;
+    border: rgb(255, 9, 9) solid 3px;
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+    border-radius: 10px;
+    text-align: center; 
+    line-height: 40px;
+    margin-left: 100px;
+    font-family: fantasy;
+    font-size: 13px;
+    margin-top: 300px;
+    transition: 0.2s;
+    
+    background-color: rgba(156, 24, 7, 0.575);
+
+}
+
+.anime3 h1{
+    margin-left: 30px;
+    font-family: fantasy;
+    color: rgb(180, 21, 0);
+     text-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ff0202,
+    0 0 40px rgb(255, 38, 0),
+    0 0 80px rgb(255, 47, 0),
+    0 0 120px rgb(140, 42, 25);
+    margin-top: 20px;}
+
+    
+
+
+.anime3 .buton3:hover{
+    background-color: #f02222 ;
+    color: rgb(255, 255, 255);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 120px #0ff;}
+
+
+.giriş1{
+    width: 900px;
+    height: 700px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 28px;
+    margin-top:200px;
+    padding: 20px;
+    text-align: center;
+    background: url(mushoku-tensei-3840x2160-22933.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+    
+
+}
+
+.giriş1 input{
+    display: block;
+    padding-left: 15px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: #c27c03bc;
+    transition: 0.3s ;
+    
+}
+.giriş1 .buttonn{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    display: block;
+    margin-left: 325px;
+    color: #602200;
+    background-color: #944927;
+    margin-bottom: 20px;
+    transition: all 0.6s;
+}
+.giriş1 .buttonn:hover{
+    background-color: #e34d01;
+    transform: scale(0.96);
+    
+    color: rgb(255, 255, 255);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(242, 145, 0),
+    0 0 80px rgb(242, 145, 0),
+    0 0 120px rgb(242, 145, 0);
+
+    
+
+}
+    
+    
+
+
+.giriş1 form{
+    display: block;
+    margin-top: 350px;
+    background-color: #412a004c;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+
+.giriş1 a{
+    text-decoration: none;
+    color: #4d1c02;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.giriş1 a:hover{ 
+    
+    color: rgb(255, 255, 255);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(242, 145, 0),
+    0 0 80px rgb(242, 145, 0),
+    0 0 120px rgb(242, 145, 0);
+
+}
+.giriş1 h1{
+    color: #602200;
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(242, 145, 0),
+    0 0 80px rgb(242, 145, 0),
+    0 0 120px rgb(242, 145, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.giriş1 input:hover{
+    color: white ;
+    background-color: #944927;
+}
+
+.giriş2{
+    width: 900px;
+    height: 700px;
+    
+    margin-left: 28px;
+    margin-top:200px;
+    padding: 20px;
+    text-align: center;
+    background: url(dandadan-key-art-3840x2160-19468.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+    
+
+}
+
+.giriş2 input{
+    display: block;
+    padding-left: 15px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: #92181b;
+    transition: all 0.3s;
+    
+}
+.giriş2 .buttonn1{
+    width: 250px;
+    height: 40px;
+    margin-top: 50px;
+    display: block;
+    margin-left: 325px;
+    color: #600000;
+    background-color: #910101;
+    margin-bottom: 20px;
+    transition: all 0.6s;
+}
+.giriş2 .buttonn1:hover{
+    background-color: #ff2525;
+    transform: scale(0.96);
+    
+    color: rgb(255, 255, 255);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(242, 145, 0),
+    0 0 80px rgb(242, 145, 0),
+    0 0 120px rgb(242, 145, 0);
+
+    
+
+}
+    
+    
+
+
+.giriş2 form{
+    display: block;
+    margin-top: 350px;
+    background-color: #492d2d4c;
+    border-radius: 10px;
+    border: white solid 1px;
+}
+
+
+
+
+
+.giriş2 h1{
+    color: rgb(144, 4, 4);
+     text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(242, 145, 0),
+    0 0 80px rgb(242, 145, 0),
+    0 0 120px rgb(242, 145, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    
+}
+
+.giriş2 input:hover{
+    color: rgb(30, 68, 203) ;
+    background-color: #ffffff;
+}
+
+.develop1{
+    width: 1000px;
+    height: 400px;
+    background: url(zenitsu-agatsuma-5120x2880-24472.png);
+    background-size: cover;
+    margin-top: 100px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.develop1 .p1{
+    color: white;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+.develop1 .img2{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+    
